@@ -87,11 +87,7 @@ const vue_app = Vue.createApp({
       textTime(minutes)
 {
       return Math.trunc(minutes / 60) + " hours " + minutes%60 + " minutes";
- },
- imageInfo(){
-
  }
-
 }
 })
 vue_app.mount("#vue_app")
