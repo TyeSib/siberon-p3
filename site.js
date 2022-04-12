@@ -88,6 +88,8 @@ const vue_app = Vue.createApp({
 {
       return Math.trunc(minutes / 60) + " hours " + minutes%60 + " minutes";
  }
+
 }
+
 })
 vue_app.mount("#vue_app")
